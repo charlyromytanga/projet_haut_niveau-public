@@ -1,0 +1,17 @@
+name: demo_rf
+version: cqlqatgyncmbbsw2
+module: bentoml.sklearn
+labels: {}
+options: {}
+metadata: {}
+context:
+  framework_name: sklearn
+  framework_versions:
+    scikit-learn: 1.8.0
+  bentoml_version: 1.4.30
+  python_version: 3.11.14
+signatures:
+  predict:
+    batchable: false
+api_version: v1
+creation_time: '2025-12-13T21:09:57.376359+00:00'
